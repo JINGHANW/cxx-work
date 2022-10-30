@@ -1,0 +1,26 @@
+/home/wjh/Downloads/clion-2021.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wjh/Downloads/clion-2021.3/bin/ninja/linux/ninja -G Ninja -S /home/wjh/CLionProjects/libevent_c -B /home/wjh/CLionProjects/libevent_c/cmake-build-debug
+-- The C compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found libevent include directory: /usr/local/include
+-- Found libevent component: /usr/local/lib/libevent_core.so
+-- Found libevent component: /usr/local/lib/libevent_extra.so
+-- Found libevent component: /usr/local/lib/libevent_openssl.so
+-- Found libevent component: /usr/local/lib/libevent_pthreads.so
+-- Found libevent 2.1.12 in /usr/local
+-- Configuring done
+CMake Warning at CMakeLists.txt:10 (add_executable):
+  Target "libevent_c" requests linking to directory "/usr/local/lib".
+  Targets may link only to libraries.  CMake is dropping the item.
+
+
+CMake Warning at CMakeLists.txt:10 (add_executable):
+  Target "libevent_c" requests linking to directory "/usr/lib".  Targets may
+  link only to libraries.  CMake is dropping the item.
+
+
+-- Generating done
+-- Build files have been written to: /home/wjh/CLionProjects/libevent_c/cmake-build-debug

@@ -1,0 +1,3 @@
+/home/wjh/CLionProjects/modify_ip/cmake-build-debug/CMakeFiles/modify_ip.dir
+/home/wjh/CLionProjects/modify_ip/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wjh/CLionProjects/modify_ip/cmake-build-debug/CMakeFiles/rebuild_cache.dir

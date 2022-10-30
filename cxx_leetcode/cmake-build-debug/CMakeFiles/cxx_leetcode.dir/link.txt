@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/cxx_leetcode.dir/main.cpp.o CMakeFiles/cxx_leetcode.dir/Solution.cpp.o -o cxx_leetcode 

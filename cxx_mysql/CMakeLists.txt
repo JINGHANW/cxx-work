@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.21)
+project(cxx_mysql)
+include_directories("/usr/include/mysql")
+include_directories("/usr/include/mysql++")
+
+link_directories("/usr/lib/x86_64-linux-gnu")
+set(CMAKE_CXX_STANDARD 14)
+set(MYSQL_LIBS mysqlpp pthread)
+add_executable(cxx_mysql main.cpp)
+target_link_libraries(cxx_mysql ${MYSQL_LIBS})

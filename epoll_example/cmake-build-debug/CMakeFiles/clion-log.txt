@@ -1,0 +1,4 @@
+/home/wjh/Downloads/clion-2021.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wjh/Downloads/clion-2021.3/bin/ninja/linux/ninja -G Ninja -S /home/wjh/CLionProjects/epoll_example -B /home/wjh/CLionProjects/epoll_example/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wjh/CLionProjects/epoll_example/cmake-build-debug

@@ -1,0 +1,22 @@
+# ninja log v5
+1	1858	1665902361402854671	CMakeFiles/test_client.dir/helloworld.grpc.pb.cc.o	a96251cc16ab7ee2
+0	1571	1665902393310263066	CMakeFiles/test_client.dir/test_client.cpp.o	809a48764b8f90fc
+0	217	1665890245617279567	CMakeFiles/cxx_grpc.dir/main.cpp.o	748245aa49cdfa35
+1	833	1665902191754820634	CMakeFiles/test_client.dir/helloworld.pb.cc.o	a9f22adbc426423d
+1571	2131	1665902393866253132	test_client	6fd9b4f51c98f14a
+0	722	1665890246125284361	CMakeFiles/cxx_grpc.dir/helloworldClient.cpp.o	d61614b645882b1f
+722	779	1665890246181284889	cxx_grpc	a5f83f51cf0104cd
+0	831	1665912147177272171	CMakeFiles/test_service.dir/helloworld.pb.cc.o	b4129e85463dd5bd
+0	1603	1665912147949275206	CMakeFiles/test_service.dir/test_service.cpp.o	b3a582b5bdf33742
+0	1908	1665912148253276842	CMakeFiles/test_service.dir/helloworld.grpc.pb.cc.o	fc8c70c20b2f3836
+1908	2500	1665912148841280188	test_service	e80e322ba3839a94
+0	1505	1666614802424898494	CMakeFiles/test_client.dir/test_client.cpp.o	809a48764b8f90fc
+1505	2138	1666614803052857564	test_client	6fd9b4f51c98f14a
+0	1453	1666614961134195882	CMakeFiles/test_client.dir/test_client.cpp.o	809a48764b8f90fc
+1453	1962	1666614961642161353	test_client	6fd9b4f51c98f14a
+1	1398	1666614972281438116	CMakeFiles/test_service.dir/test_service.cpp.o	b3a582b5bdf33742
+1398	1921	1666614972801402769	test_service	e80e322ba3839a94
+1	1453	1666615056694277124	CMakeFiles/test_client.dir/test_client.cpp.o	809a48764b8f90fc
+1453	1974	1666615057214146014	test_client	6fd9b4f51c98f14a
+1	1507	1666615179402320561	CMakeFiles/test_client.dir/test_client.cpp.o	809a48764b8f90fc
+1507	2020	1666615179914241946	test_client	6fd9b4f51c98f14a

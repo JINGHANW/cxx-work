@@ -1,0 +1,6 @@
+/home/wjh/Downloads/clion-2021.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wjh/Downloads/clion-2021.3/bin/ninja/linux/ninja -G Ninja -S /home/wjh/CLionProjects/cxx_grpc -B /home/wjh/CLionProjects/cxx_grpc/cmake-build-debug
+-- Using protobuf 3.21.6.0
+-- Using gRPC 1.17.2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wjh/CLionProjects/cxx_grpc/cmake-build-debug
