@@ -1,4 +1,10 @@
-/home/wjh/Downloads/clion-2021.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wjh/Downloads/clion-2021.3/bin/ninja/linux/ninja -G Ninja -S /home/wjh/CLionProjects/epoll_example -B /home/wjh/CLionProjects/epoll_example/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/yanchao/CLionProjects/cxx-work/epoll_example -B /Users/yanchao/CLionProjects/cxx-work/epoll_example/cmake-build-debug
+-- The C compiler identification is AppleClang 14.0.0.14000029
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/wjh/CLionProjects/epoll_example/cmake-build-debug
+-- Build files have been written to: /Users/yanchao/CLionProjects/cxx-work/epoll_example/cmake-build-debug

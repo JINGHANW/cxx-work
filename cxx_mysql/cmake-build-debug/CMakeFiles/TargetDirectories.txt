@@ -1,3 +1,0 @@
-/home/wjh/CLionProjects/cxx_mysql/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/wjh/CLionProjects/cxx_mysql/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wjh/CLionProjects/cxx_mysql/cmake-build-debug/CMakeFiles/cxx_mysql.dir

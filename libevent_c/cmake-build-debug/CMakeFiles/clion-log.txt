@@ -1,26 +1,27 @@
-/home/wjh/Downloads/clion-2021.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wjh/Downloads/clion-2021.3/bin/ninja/linux/ninja -G Ninja -S /home/wjh/CLionProjects/libevent_c -B /home/wjh/CLionProjects/libevent_c/cmake-build-debug
--- The C compiler identification is GNU 9.4.0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/yanchao/CLionProjects/cxx-work/libevent_c -B /Users/yanchao/CLionProjects/cxx-work/libevent_c/cmake-build-debug
+-- The C compiler identification is AppleClang 14.0.0.14000029
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Found libevent include directory: /usr/local/include
--- Found libevent component: /usr/local/lib/libevent_core.so
--- Found libevent component: /usr/local/lib/libevent_extra.so
--- Found libevent component: /usr/local/lib/libevent_openssl.so
--- Found libevent component: /usr/local/lib/libevent_pthreads.so
--- Found libevent 2.1.12 in /usr/local
--- Configuring done
-CMake Warning at CMakeLists.txt:10 (add_executable):
-  Target "libevent_c" requests linking to directory "/usr/local/lib".
-  Targets may link only to libraries.  CMake is dropping the item.
+CMake Error at CMakeLists.txt:9 (find_package):
+  By not providing "FindLibevent.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Libevent",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "Libevent" with any
+  of the following names:
+
+    LibeventConfig.cmake
+    libevent-config.cmake
+
+  Add the installation prefix of "Libevent" to CMAKE_PREFIX_PATH or set
+  "Libevent_DIR" to a directory containing one of the above files.  If
+  "Libevent" provides a separate development package or SDK, be sure it has
+  been installed.
 
 
-CMake Warning at CMakeLists.txt:10 (add_executable):
-  Target "libevent_c" requests linking to directory "/usr/lib".  Targets may
-  link only to libraries.  CMake is dropping the item.
-
-
--- Generating done
--- Build files have been written to: /home/wjh/CLionProjects/libevent_c/cmake-build-debug
+-- Configuring incomplete, errors occurred!
+See also "/Users/yanchao/CLionProjects/cxx-work/libevent_c/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/yanchao/CLionProjects/cxx-work/libevent_c/cmake-build-debug/CMakeFiles/CMakeError.log".
